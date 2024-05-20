@@ -1,5 +1,5 @@
 import { cn } from "@/utils/cn";
-import { CanvasRevealEffect3 } from "./CanvasRevealEffect3";
+import Image from "next/image";
 
 export const BentoGrid = ({
     className,
@@ -64,13 +64,17 @@ export const BentoGridItem = ({
             <div className={``}>
                 <div
                     className={`absolute ${
-                        id === 1 ? "right-0 bottom-0 opacity-20 md:opacity-50 lg:opacity-70" : ""
+                        id === 1
+                            ? "right-0 bottom-0 opacity-20 md:opacity-50 lg:opacity-70"
+                            : ""
                     }`}
                 >
                     {img && (
-                        <img
+                        <Image
                             src={img}
                             alt={img}
+                            width={1000}
+                            height={1000}
                             className={cn(
                                 imgClassName,
                                 "object-cover object-center"
@@ -102,9 +106,11 @@ export const BentoGridItem = ({
                                 key={index}
                                 className="flex flex-col justify-center items-center gap-1.5 hover:scale-110 transition duration-200"
                             >
-                                <img
+                                <Image
                                     src={item.icon}
                                     alt={item.skill}
+                                    width={80}
+                                    height={80}
                                     className="size-14 md:size-20 object-cover"
                                 />
                                 <span className="text-white/60 font-extralight text-xs">

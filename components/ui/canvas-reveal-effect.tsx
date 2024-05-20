@@ -292,7 +292,7 @@ const ShaderMaterial = ({
         });
 
         return materialObject;
-    }, [size.width, size.height, source]);
+    }, [size, source]);
 
     return (
         <mesh ref={ref as any}>

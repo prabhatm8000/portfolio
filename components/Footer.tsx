@@ -1,5 +1,5 @@
 import { socialMedia } from "@/data";
-import React from "react";
+import Image from "next/image";
 import { AuroraBackground } from "./ui/AuroraBackground";
 
 const Footer = () => {
@@ -13,11 +13,11 @@ const Footer = () => {
 
                     <p className="text-white/70 text-sm text-center">
                         Feel free to reach out to me for any inquiries,
-                        collaborations, or opportunities. I'm always open to
+                        collaborations, or opportunities. I&apos;m always open to
                         discussing new projects, sharing knowledge, and
                         connecting with fellow professionals in the tech
                         community. Whether you have a question, a proposal, or
-                        just want to say hello, don't hesitate to get in touch.
+                        just want to say hello, don&apos;t hesitate to get in touch.
                         You can contact me via email, LinkedIn, or Twitter (X).
                         I look forward to hearing from you!
                     </p>
@@ -44,7 +44,7 @@ const Footer = () => {
                                     key={item.id}
                                     className="w-10 h-10 cursor-pointer justify-center items-center"
                                 >
-                                    <img
+                                    <Image
                                         src={item.img}
                                         alt={item.img}
                                         className=""
