@@ -142,21 +142,21 @@ export const socialMedia = [
     {
         id: 1,
         img: "/logo/gmail.svg",
-        link: "",
+        link: "mailto:prabhatm8000@gmail.com",
     },
     {
         id: 2,
         img: "/logo/github.svg",
-        link: "",
+        link: "https://github.com/prabhatm8000",
     },
     {
         id: 3,
         img: "/logo/twitter.svg",
-        link: "",
+        link: "https://x.com/prabhatm8000",
     },
     {
         id: 4,
         img: "/logo/linkedin.svg",
-        link: "",
+        link: "https://www.linkedin.com/in/prabhatm8000",
     },
 ];

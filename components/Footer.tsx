@@ -13,13 +13,13 @@ const Footer = () => {
 
                     <p className="text-white/70 text-sm text-center">
                         Feel free to reach out to me for any inquiries,
-                        collaborations, or opportunities. I&apos;m always open to
-                        discussing new projects, sharing knowledge, and
+                        collaborations, or opportunities. I&apos;m always open
+                        to discussing new projects, sharing knowledge, and
                         connecting with fellow professionals in the tech
                         community. Whether you have a question, a proposal, or
-                        just want to say hello, don&apos;t hesitate to get in touch.
-                        You can contact me via email, LinkedIn, or Twitter (X).
-                        I look forward to hearing from you!
+                        just want to say hello, don&apos;t hesitate to get in
+                        touch. You can contact me via email, LinkedIn, or
+                        Twitter (X). I look forward to hearing from you!
                     </p>
                 </div>
 
@@ -40,18 +40,20 @@ const Footer = () => {
                     <div className="flex items-center gap-6 md:gap-3">
                         {socialMedia.map((item) => {
                             return (
-                                <div
+                                <a
+                                    href={item.link}
+                                    target="_blank"
                                     key={item.id}
-                                    className="w-10 h-10 cursor-pointer justify-center items-center"
+                                    className="w-10 h-10 justify-center items-center"
                                 >
                                     <Image
                                         src={item.img}
                                         alt={item.img}
-                                        className=""
-                                        width={20}
-                                        height={20}
+                                        width={30}
+                                        height={30}
+                                        className="size-6"
                                     />
-                                </div>
+                                </a>
                             );
                         })}
                     </div>

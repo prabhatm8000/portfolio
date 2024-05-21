@@ -37,11 +37,11 @@ const Hero = () => {
 
                     {/* <p>{"Hi, I'm Prabhat, a Full Stack Web Developer"}</p> */}
 
-                    <a href="#">
+                    <a href="/prabhat_mishra_resume.pdf">
                         <MagicButton
                             icon={<FaPaperPlane />}
                             position="right"
-                            title={"My work"}
+                            title={"My Resume"}
                         />
                     </a>
                 </div>
