@@ -36,7 +36,7 @@ export const gridItems = [
             },
             {
                 skill: "Java",
-                icon: "/logo/Java.svg",
+                icon: "/logo/java.svg",
             },
             {
                 skill: "Node.js",
