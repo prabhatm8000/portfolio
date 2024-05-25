@@ -9,6 +9,11 @@ const RecentProjects = () => {
                 {"A small section of "}
                 <span className="text-orange-200/90">recent projects.</span>
             </h1>
+            <p className="text-[10px] sm:text-xs text-center text-white mt-6">
+                *Most of my projects are hosted on Render. Render may spin down
+                inactive web services, so please wait a minutes for them to
+                spin back up, or try again shortly. (typically takes 50 seconds)
+            </p>
 
             <div className="grid xl:grid-cols-2 items-center justify-center p-4 text-white">
                 {projects.map(
