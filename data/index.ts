@@ -94,7 +94,7 @@ export const projects = [
             "/logo/tailwind.svg",
         ],
         link: "https://github.com/teleport-1254/mern-media",
-        liveLink: "",
+        liveLink: "https://mern-media-9uwd.onrender.com",
     },
     {
         id: 2,
@@ -109,7 +109,7 @@ export const projects = [
             "/logo/tailwind.svg",
         ],
         link: "https://github.com/teleport-1254/guessTheDrawing",
-        liveLink: "",
+        liveLink: "https://guessthedrawing.vercel.app",
     },
     {
         id: 3,
@@ -125,7 +125,7 @@ export const projects = [
             "/logo/tailwind.svg",
         ],
         link: "https://github.com/teleport-1254/mern-Hotel-app",
-        liveLink: "",
+        liveLink: "https://mern-hotel-app-uz60.onrender.com",
     },
     {
         id: 4,
@@ -134,7 +134,7 @@ export const projects = [
         img: "/p4.png",
         iconLists: ["/logo/javascript.svg", "/logo/three.svg"],
         link: "https://github.com/teleport-1254/solarThreeJS",
-        liveLink: "",
+        liveLink: "https://solarthreejs.vercel.app",
     },
 ];
 
