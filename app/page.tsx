@@ -1,22 +1,30 @@
+"use client";
+
+import AboutMe from "@/components/AboutMe";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
-import Hero from "@/components/Hero";
-import RecentProjects from "@/components/RecentProjects";
-import { FloatingNavBar } from "@/components/ui/FloatingNavBar";
-import { navItems } from "@/data";
+import Loading from "@/components/Loading";
+import NavBar from "@/components/NavBar";
+import Projects from "@/components/Projects";
+import WorkExp from "@/components/WorkExp";
+import { useAppStore } from "@/store";
 
 export default function Home() {
+    const loading = useAppStore((state) => state.loading);
     return (
-        <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden">
-            {/* <TracingBeam> */}
-            <div className="max-w-7xl w-full sm:px-10 px-5">
-                <FloatingNavBar navItems={navItems} />
-                <Hero />
-                <Grid />
-                <RecentProjects />
-            </div>
-            <Footer />
-            {/* </TracingBeam> */}
-        </main>
+        <>
+            <Loading />
+            {!loading && (
+                <>
+                    <NavBar />
+
+                    <main className="flex flex-col overflow-hidden relative">
+                        <AboutMe />
+                        <WorkExp />
+                        <Projects />
+                        <Footer />
+                    </main>
+                </>
+            )}
+        </>
     );
 }

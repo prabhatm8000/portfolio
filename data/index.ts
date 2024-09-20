@@ -1,8 +1,40 @@
 export const navItems = [
-    { name: "Home", link: "#home" },
-    { name: "Skills", link: "#skills" },
-    { name: "Projects", link: "#projects" },
-    { name: "Contact", link: "#contact" },
+    {
+        title: "About Me",
+        link: "#aboutMe",
+    },
+    {
+        title: "Work Experience",
+        link: "#workExperience",
+    },
+    {
+        title: "Projects",
+        link: "#projects",
+    },
+];
+
+export const aboutMe = {
+    text: `Hi, I'm Prabhat, a Full Stack Developer with expertise in the MERN stack, TypeScript, and Socket.io. Experienced in building scalable
+web apps, with a focus on creating seamless user experiences and robust backend systems.`,
+};
+
+export const workExperience = [
+    {
+        id: 1,
+        logo: "/teconico.png",
+        title: "Full Stack Developer",
+        company: "TecoNico Pvt. Ltd.",
+        date: "July 2024 - Present",
+        location: "Remote",
+        type: "Internship",
+        keyPoints: [
+            "Worked on a new healthcare platform, Robosensy.",
+            "Optimized authentication for various users: admins, medical representatives, hospitals, and patients byredesigning the login flow.",
+            "Generated documentation for backend API endpoints.",
+            "Developed the backend for the platform, using Node.js, Express.js and MongoDB. Implemented Redux for state management.",
+            "Introduced new features such as sending notifications, invoices, and prescriptions via WhatsApp.",
+        ],
+    },
 ];
 
 export const gridItems = [
@@ -93,7 +125,7 @@ export const projects = [
             "/logo/react.svg",
             "/logo/tailwind.svg",
         ],
-        link: "https://github.com/teleport-1254/mern-media",
+        github: "https://github.com/prabhatm8000/mern-media",
         liveLink: "https://mern-media-9uwd.onrender.com",
     },
     {
@@ -108,7 +140,7 @@ export const projects = [
             "/logo/react.svg",
             "/logo/tailwind.svg",
         ],
-        link: "https://github.com/teleport-1254/guessTheDrawing",
+        github: "https://github.com/prabhatm8000/guessTheDrawing",
         liveLink: "https://guessthedrawing.vercel.app",
     },
     {
@@ -124,7 +156,7 @@ export const projects = [
             "/logo/react.svg",
             "/logo/tailwind.svg",
         ],
-        link: "https://github.com/teleport-1254/mern-Hotel-app",
+        github: "https://github.com/prabhatm8000/mern-Hotel-app",
         liveLink: "https://mern-hotel-app-uz60.onrender.com",
     },
     {
@@ -133,30 +165,7 @@ export const projects = [
         des: "Explore the wonders of our solar system with this captivating 3D simulation of the sun, planets and asteroids using Three.js.",
         img: "/p4.png",
         iconLists: ["/logo/javascript.svg", "/logo/three.svg"],
-        link: "https://github.com/teleport-1254/solarThreeJS",
+        github: "https://github.com/prabhatm8000/solarThreeJS",
         liveLink: "https://solarthreejs.vercel.app",
-    },
-];
-
-export const socialMedia = [
-    {
-        id: 1,
-        img: "/logo/gmail.svg",
-        link: "mailto:prabhatm8000@gmail.com",
-    },
-    {
-        id: 2,
-        img: "/logo/github.svg",
-        link: "https://github.com/prabhatm8000",
-    },
-    {
-        id: 3,
-        img: "/logo/twitter.svg",
-        link: "https://x.com/prabhatm8000",
-    },
-    {
-        id: 4,
-        img: "/logo/linkedin.svg",
-        link: "https://www.linkedin.com/in/prabhatm8000",
     },
 ];
