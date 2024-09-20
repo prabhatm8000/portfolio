@@ -45,7 +45,7 @@ const Loading = () => {
                     height: `${progress}vh`,
                 }}
             >
-                <div className="absolute bottom-0 right-0 m-10 text-3xl md:text-4xl lg:text-5xl">
+                <div className="absolute right-0 m-6 text-3xl md:text-4xl lg:text-5xl">
                     <span>{"Loading "}</span>
                     <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                         {progress}
