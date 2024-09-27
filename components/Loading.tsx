@@ -43,6 +43,7 @@ const Loading = () => {
                 className="bg-red bottom-0"
                 style={{
                     height: `${progress}vh`,
+                    transition: "height 0.1s ease-in-out",
                 }}
             >
                 <div className="absolute right-0 m-6 text-3xl md:text-4xl lg:text-5xl">
