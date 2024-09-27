@@ -29,10 +29,10 @@ export const workExperience = [
         type: "Internship",
         keyPoints: [
             "Worked on a new healthcare platform, Robosensy.",
-            "Optimized authentication for various users: admins, medical representatives, hospitals, and patients byredesigning the login flow.",
-            "Generated documentation for backend API endpoints.",
-            "Developed the backend for the platform, using Node.js, Express.js and MongoDB. Implemented Redux for state management.",
+            "Optimized authentication system for various users by redesigning the login flow and enhancing API efficiency by 30%.",
+            "Generated documentation for backend API endpoints, which reduce development time by 20-30%.",
             "Introduced new features such as sending notifications, invoices, and prescriptions via WhatsApp.",
+            "Node.js, Express.js, MongoDB, React.js, and Redux.",
         ],
     },
 ];
