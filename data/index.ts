@@ -14,8 +14,7 @@ export const navItems = [
 ];
 
 export const aboutMe = {
-    text: `Hi, I'm Prabhat, a Full Stack Developer with expertise in the MERN stack, TypeScript, and Socket.io. Experienced in building scalable
-web apps, with a focus on creating seamless user experiences and robust backend systems.`,
+    text: `Hi, I'm Prabhat, a Full Stack Developer with expertise in the MERN stack, TypeScript, and Socket.io. Experienced in building scalable web apps, with a focus on creating seamless user experiences and robust backend systems.`,
 };
 
 export const workExperience = [
@@ -24,14 +23,13 @@ export const workExperience = [
         logo: "/teconico.png",
         title: "Full Stack Developer",
         company: "TecoNico Pvt. Ltd.",
-        date: "July 2024 - Present",
+        date: "July 2024 - December 2024",
         location: "Remote",
         type: "Internship",
         keyPoints: [
-            "Worked on a new healthcare platform, Robosensy.",
-            "Optimized authentication system for various users by redesigning the login flow and enhancing API efficiency by 30%.",
+            "Worked on a EMR platform Robosensy, Optimized authentication system for various users by redesigning the login flow and enhanced API efficiency by 30% by optimizing database pipelines.",
+            "Introduced new features such as prescriptions and invoice pdf generation, sending notifications, invoices, and prescriptions via WhatsApp.",
             "Generated documentation for backend API endpoints, which reduce development time by 20-30%.",
-            "Introduced new features such as sending notifications, invoices, and prescriptions via WhatsApp.",
             "Node.js, Express.js, MongoDB, React.js, and Redux.",
         ],
     },
@@ -112,10 +110,26 @@ export const gridItems = [
 
 export const projects = [
     {
-        id: 1,
+        id: 5,
+        title: "AiBooks - AI-generated books",
+        des: "A collection of AI-generated books and python scripts for generating books for all genres.",
+        img: "/project5.png",
+        iconLists: [
+            "/logo/golang.svg",
+            "/logo/typescript.svg",
+            "/logo/python.svg",
+            "/logo/mongodb.svg",
+            "/logo/next.svg",
+            "/logo/tailwind.svg",
+        ],
+        github: "https://github.com/prabhatm8000/aibooks-backend",
+        liveLink: "https://aibooks-frontend.vercel.app/",
+    },
+    {
+        id: 4,
         title: "MernMedia - A Social-Media Web App",
         des: "MernMedia is a social media platform that offers seamless user authentication, personalized profiles, engaging posts, and real-time chats.",
-        img: "/p1.png",
+        img: "/project4.png",
         iconLists: [
             "/logo/typescript.svg",
             "/logo/node-js.svg",
@@ -129,10 +143,10 @@ export const projects = [
         liveLink: "https://mern-media-9uwd.onrender.com",
     },
     {
-        id: 2,
+        id: 3,
         title: "guessTheDrawing - Online Multi-Player Scribble Game",
         des: "guessTheDrawing is an interactive online multi-player game where players draw and guess images in real-time.",
-        img: "/p2.png",
+        img: "/project3.png",
         iconLists: [
             "/logo/typescript.svg",
             "/logo/node-js.svg",
@@ -144,10 +158,10 @@ export const projects = [
         liveLink: "https://guessthedrawing.vercel.app",
     },
     {
-        id: 3,
+        id: 2,
         title: "MernHotel - Online Hotel Booking Web App",
         des: "MernHotel is a modern hotel management system, designed to streamline bookings, check-ins, and guest services.",
-        img: "/p3.png",
+        img: "/project2.png",
         iconLists: [
             "/logo/typescript.svg",
             "/logo/node-js.svg",
@@ -160,10 +174,10 @@ export const projects = [
         liveLink: "https://mern-hotel-app-uz60.onrender.com",
     },
     {
-        id: 4,
+        id: 1,
         title: "3D Solar System",
         des: "Explore the wonders of our solar system with this captivating 3D simulation of the sun, planets and asteroids using Three.js.",
-        img: "/p4.png",
+        img: "/project1.png",
         iconLists: ["/logo/javascript.svg", "/logo/three.svg"],
         github: "https://github.com/prabhatm8000/solarThreeJS",
         liveLink: "https://solarthreejs.vercel.app",
